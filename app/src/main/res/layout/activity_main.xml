@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/appbar">
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="591dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginTop="-1dp"
+        android:background="@color/bgbottom"
+        android:contentDescription="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:cardCornerRadius="20dp"
+                android:backgroundTint="@color/black"
+                android:layout_margin="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/terna"
+                        android:layout_width="match_parent"
+                        android:layout_height="193dp"
+                        app:srcCompat="@drawable/terna"
+                        android:clickable="true"
+                        android:contentDescription="maa chudao"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:layout_constraintEnd_toEndOf="@+id/textView5"
+                            app:layout_constraintStart_toEndOf="@+id/textView5">
+
+                            <TextView
+                                android:id="@+id/textView5"
+                                android:layout_width="189dp"
+                                android:layout_height="50dp"
+                                android:fontFamily="@font/qatarfont"
+                                android:text="Terna Turf"
+                                android:textColor="@color/white"
+                                android:textSize="45dp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toStartOf="@+id/button8"
+                                app:layout_constraintHorizontal_bias="0.47"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="1.0" />
+
+                            <Button
+                                android:id="@+id/button8"
+                                android:layout_width="148dp"
+                                android:layout_height="51dp"
+                                android:backgroundTint="#009252"
+                                android:text="BOOK"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                android:onClick="opencardview1"
+                                app:layout_constraintVertical_bias="0.166" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:cardCornerRadius="20dp"
+                android:backgroundTint="@color/black"
+                android:layout_margin="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/rehan"
+                        android:layout_width="match_parent"
+                        android:layout_height="193dp"
+                        android:clickable="true"
+                        android:contentDescription="maa chudao"
+                        app:srcCompat="@drawable/rehansplayground" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:layout_constraintEnd_toEndOf="@+id/textView5"
+                            app:layout_constraintStart_toEndOf="@+id/textView5">
+
+                            <TextView
+                                android:id="@+id/textView6"
+                                android:layout_width="189dp"
+                                android:layout_height="50dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/qatarfont"
+                                android:text="Nerul gymkhana"
+                                android:textColor="@color/white"
+                                android:textSize="37dp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toStartOf="@+id/button9"
+                                app:layout_constraintHorizontal_bias="0.47"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="1.0" />
+
+                            <Button
+                                android:id="@+id/button9"
+                                android:layout_width="148dp"
+                                android:layout_height="51dp"
+                                android:backgroundTint="#009252"
+                                android:text="BOOK"
+                                android:onClick="opencardview_2"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.166" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:cardCornerRadius="20dp"
+                android:backgroundTint="@color/black"
+                android:layout_margin="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/vaibhav"
+                        android:layout_width="match_parent"
+                        android:layout_height="193dp"
+                        app:srcCompat="@drawable/vaibhavkotha"
+                        android:clickable="true"
+                        android:contentDescription="maa chudao"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:layout_constraintEnd_toEndOf="@+id/textView5"
+                            app:layout_constraintStart_toEndOf="@+id/textView5">
+
+                            <TextView
+                                android:id="@+id/textView7"
+                                android:layout_width="189dp"
+                                android:layout_height="50dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/qatarfont"
+                                android:text="Turf It panvel"
+                                android:textColor="@color/white"
+                                android:textSize="37dp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toStartOf="@+id/button11"
+                                app:layout_constraintHorizontal_bias="0.47"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="1.0" />
+
+                            <Button
+                                android:id="@+id/button11"
+                                android:layout_width="148dp"
+                                android:layout_height="51dp"
+                                android:backgroundTint="#009252"
+                                android:text="BOOK"
+                                android:onClick="opencardview3"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.166" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:cardCornerRadius="20dp"
+                android:backgroundTint="@color/black"
+                android:layout_margin="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/rameez"
+                        android:layout_width="match_parent"
+                        android:layout_height="193dp"
+                        app:srcCompat="@drawable/khatnaturf"
+                        android:clickable="true"
+                        android:contentDescription="maa chudao"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:layout_constraintEnd_toEndOf="@+id/textView5"
+                            app:layout_constraintStart_toEndOf="@+id/textView5">
+
+                            <TextView
+                                android:id="@+id/textView9"
+                                android:layout_width="189dp"
+                                android:layout_height="50dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/qatarfont"
+                                android:text="SKYGOAL ULWE"
+                                android:textColor="@color/white"
+                                android:textSize="40dp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toStartOf="@+id/button12"
+                                app:layout_constraintHorizontal_bias="0.47"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="1.0"
+                                app:layout_goneMarginTop="50dp" />
+
+                            <Button
+                                android:id="@+id/button12"
+                                android:layout_width="148dp"
+                                android:layout_height="51dp"
+                                android:backgroundTint="#009252"
+                                android:text="BOOK"
+                                android:onClick="opencardview4"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.166" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:background="@color/scroolviewbg"
+        app:menu="@menu/bottommenu"></com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/scroolviewbg"
+        app:menu="@menu/topmenu"></com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</RelativeLayout>
