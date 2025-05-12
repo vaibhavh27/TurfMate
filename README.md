@@ -1,6 +1,6 @@
 # Turf Mate ⚽🏟️
 
-![Turf Mate Logo](./assets/TurfMate_Logo.png) <!-- Using front page as a sort of logo/banner -->
+<img src="./assets/TurfMate_Logo.png" alt="Turf Mate Logo" width="150"/> <!-- Using HTML for size control -->
 
 **Mini Project-III for B.Tech in Computer Engineering**
 Ramrao Adik Institute of Technology (RAIT), Navi Mumbai
