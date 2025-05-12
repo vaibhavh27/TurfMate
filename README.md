@@ -1,6 +1,6 @@
 # Turf Mate ⚽🏟️
 
-![Turf Mate Logo](./assets/Front_page.png) <!-- Using front page as a sort of logo/banner -->
+![Turf Mate Logo](./assets/TurfMate_Logo.png) <!-- Using front page as a sort of logo/banner -->
 
 **Mini Project-III for B.Tech in Computer Engineering**
 Ramrao Adik Institute of Technology (RAIT), Navi Mumbai
@@ -48,7 +48,7 @@ Here are some glimpses of the Turf Mate application:
 
 | Front Page                               | Home Page                                | Turf Details Page                          |
 | :---------------------------------------: | :---------------------------------------: | :---------------------------------------: |
-| ![Front Page](./docs/images/front_page.png) | ![Home Page](./docs/images/home_page.png) | ![Turf Details](./docs/images/details_page.png) |
+| ![Front Page](./assets/Front_page.png) | ![Home Page](./assets/Home_page.png) | ![Turf Details](./assets/Turf_details_page.png) |
 
 ---
 
